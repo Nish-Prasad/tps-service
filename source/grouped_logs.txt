@@ -1,0 +1,65 @@
+[2025-04-30 11:27:30.165] RequestID: 000100 -> [Bank bank1] Lock acquired immediately
+
+[2025-04-30 11:27:30.165] RequestID: 000100 -> 
+Total Token:[bank1] 10
+
+[2025-04-30 11:27:30.882] RequestID: 000102 -> [Bank bank2] Lock acquired immediately
+
+[2025-04-30 11:27:30.883] RequestID: 000102 -> 
+Total Token:[bank2] 10
+
+[2025-04-30 11:27:30.980] RequestID: 000100 -> 
+Token Left:[bank1] 9
+
+[2025-04-30 11:27:30.980] RequestID: 000100 -> [Instance 3] Token consumed for bank1, attempt 1
+
+[2025-04-30 11:27:31.644] RequestID: 000102 -> 
+Token Left:[bank2] 9
+
+[2025-04-30 11:27:31.644] RequestID: 000102 -> [Instance 2] Token consumed for bank2, attempt 1
+
+[2025-04-30 11:27:31.964] RequestID: 000101 -> [Bank bank2] Got lock after wait
+
+[2025-04-30 11:27:32.232] RequestID: 000101 -> 
+Total Token:[bank2] 9
+
+[2025-04-30 11:27:32.973] RequestID: 000101 -> 
+Token Left:[bank2] 8
+
+[2025-04-30 11:27:32.974] RequestID: 000101 -> [Instance 1] Token consumed for bank2, attempt 1
+
+[2025-04-30 11:27:33.369] RequestID: 000104 -> [Bank bank2] Lock acquired immediately
+
+[2025-04-30 11:27:33.370] RequestID: 000104 -> 
+Total Token:[bank2] 8
+
+[2025-04-30 11:27:33.953] RequestID: 000103 -> [Bank bank2] Got lock after wait
+
+[2025-04-30 11:27:34.211] RequestID: 000104 -> 
+Token Left:[bank2] 7
+
+[2025-04-30 11:27:34.211] RequestID: 000104 -> [Instance 2] Token consumed for bank2, attempt 2
+
+[2025-04-30 11:27:34.213] RequestID: 000103 -> 
+Total Token:[bank2] 7
+
+[2025-04-30 11:27:35.080] RequestID: 000103 -> 
+Token Left:[bank2] 6
+
+[2025-04-30 11:27:35.080] RequestID: 000103 -> [Instance 3] Token consumed for bank2, attempt 2
+
+[2025-04-30 11:27:35.351] RequestID: 000105 -> [Bank bank2] Lock acquired immediately
+
+[2025-04-30 11:27:35.353] RequestID: 000105 -> 
+Total Token:[bank2] 6
+
+[2025-04-30 11:27:36.125] RequestID: 000105 -> 
+Token Left:[bank2] 5
+
+[2025-04-30 11:27:36.125] RequestID: 000105 -> [Instance 1] Token consumed for bank2, attempt 2
+
+[2025-04-30 11:27:36.520] RequestID: 000106 -> [Bank bank2] Got lock after wait
+
+[2025-04-30 11:27:36.787] RequestID: 000106 -> 
+Total Token:[bank2] 5
+
